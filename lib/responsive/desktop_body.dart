@@ -7,7 +7,7 @@ class DesktopBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
       backgroundColor: Colors.deepPurple[200],
-      appBar: AppBar(title: Text("T A B L E T"),backgroundColor: Colors.deepPurple[400],),
+      appBar: AppBar(title: Text("T A B L E T S"),backgroundColor: Colors.deepPurple[400],),
       body: Row(
         children: [
           Expanded(
