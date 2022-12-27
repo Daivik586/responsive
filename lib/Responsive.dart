@@ -7,7 +7,7 @@ final Widget desktopBody;
 Responsive({required this.mobileBody, required this.desktopBody});
   @override
   Widget build(BuildContext context) {
-    return LayoutBuilder(
+    return  LayoutBuilder(
         builder: (context, constraints){
           if(constraints.maxWidth < mobileWidth){
             return mobileBody;

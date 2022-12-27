@@ -1,6 +1,5 @@
 import 'package:demo/HomePage.dart';
 import 'package:demo/LoginPage.dart';
-import 'package:demo/demo.dart';
 import 'package:flutter/material.dart';
 
 void main(){
@@ -21,7 +20,6 @@ class _app1State extends State<app1> {
     return MaterialApp(
       home: LoginPage(),
       debugShowCheckedModeBanner: false,
-
     );
   }
 }
